@@ -1,19 +1,16 @@
 {
   "name": "wed-web",
+"homepage": "https://khushirajput03.github.io/shaadiplatfrom1/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "react-scripts start",
     "build": "vite build",
-<<<<<<< HEAD
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-=======
-    "lint": "eslint .",
-    "preview": "vite preview"
->>>>>>> ffd78dcba87a05af4e4b7178005166c3b840a785
+   "predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -33,10 +30,7 @@
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
-<<<<<<< HEAD
     "gh-pages": "^6.3.0",
-=======
->>>>>>> ffd78dcba87a05af4e4b7178005166c3b840a785
     "globals": "^16.0.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.1",
